@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录国家</title>
+
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -150px 0 0 -150px;
+        width: 300px;
+        height: 300px;
+    }
+
+    input {
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: 30px;
+    }
+
+    button {
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: 30px;
+        box-sizing: content-box;
+        border-radius: 10px;
+    }
+    select{
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: 30px;    
+    }
+</style>
+</head>
+
+<body>
+    <div>
+        <h1>登录国家</h1>
+        <form><!--登录-->
+            <select title="请选择自己的国家">
+                <option value="铅笔共和国">铅笔共和国</option>
+                <option value="农民帝国">农民帝国</option>
+                <option value="松鼠帝国">松鼠帝国</option>
+                <option value="工业帝国">工业帝国</option>
+                <option value="巴巴斯托人民共和国">巴巴斯托人民共和国</option>
+                <option value="需密共和国">需密共和国</option>
+                <option value="枫丹共和国">枫丹共和国</option>
+                <option value="菠萝共和国">菠萝共和国</option>
+                <option value="鸟托邦共和国">鸟托邦共和国</option>
+                <option value="暗区共和国">暗区共和国</option>
+                <option value="杰海王朝">杰海王朝</option>
+                <option value="远洋帝国">远洋帝国</option>
+            </select>
+            <input type="text" required="required" placeholder="国家编号" />
+            <input type="password" required="required" placeholder="验证码" />
+            <button type="submit">登录</button>
+        </form>
+    </div>
+</body>
+
+</html>
